@@ -26,6 +26,8 @@ namespace GitHub
             double d1 = (Math.Sqrt(Convert.ToInt32(textBox1.Text) / (Convert.ToInt32(textBox1.Text) - 1)));
             label2.Text = Convert.ToString(d1);
 
+            double d2 = ((Convert.ToInt32(textBox1.Text) + 1) / (Convert.ToInt32(textBox1.Text) - 1) + Math.Sqrt(Math.Pow(Convert.ToInt32(textBox1.Text), 2)));
+            label3.Text = Convert.ToString(d2);
         }
     }
 }
